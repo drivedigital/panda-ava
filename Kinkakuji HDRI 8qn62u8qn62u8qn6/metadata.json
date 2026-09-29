@@ -1,0 +1,49 @@
+{
+  "title": "Kinkaku-ji (Golden Pavilion) Winter HDRI Environment Set",
+  "source_image": "/Users/dangeorge/Downloads/Kinkakuji/Gemini_Generated_Image_8qn62u8qn62u8qn6.jpeg",
+  "source_resolution": "2752x1536",
+  "files": {
+    "hdr_high.png": {
+      "format": "PNG",
+      "resolution": "8192x4096",
+      "channels": 3,
+      "bit_depth": 8,
+      "color_space": "sRGB",
+      "description": "High-resolution 360\u00b0 x 180\u00b0 equirectangular visual skybox and background map"
+    },
+    "hdr.exr": {
+      "format": "OpenEXR",
+      "resolution": "2048x1024",
+      "channels": 3,
+      "bit_depth": 32,
+      "data_type": "float32",
+      "color_space": "Linear Radiance",
+      "peak_radiance": 8500.0,
+      "mean_radiance": 1.5082000494003296,
+      "description": "High dynamic range linear radiance environment map for physical image-based lighting (IBL)"
+    },
+    "hdr.hdr": {
+      "format": "Radiance RGBE (.hdr)",
+      "resolution": "2048x1024",
+      "channels": 3,
+      "bit_depth": 32,
+      "color_space": "Linear Radiance",
+      "description": "Standard Radiance RGBE environment map compatible with Three.js RGBELoader and WebGL"
+    },
+    "depth.png": {
+      "format": "PNG",
+      "resolution": "2044x1022",
+      "channels": 1,
+      "bit_depth": 8,
+      "description": "Equirectangular radial depth map for camera projection, parallax occlusion, and depth reconstruction"
+    }
+  },
+  "lighting_parameters": {
+    "sun_azimuth_degrees": 204.0,
+    "sun_elevation_degrees": 34.0,
+    "color_temperature_kelvin": 6500,
+    "estimated_ambient_irradiance": "Clear winter day with crisp blue sky and direct solar highlight",
+    "recommended_threejs_exposure": 1.0,
+    "recommended_blender_exposure": 0.0
+  }
+}
