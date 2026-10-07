@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Crimson Tiger Guardia — Rigged & Animated</title>
+  <style>:root{--bg:#14161c;--panel:#1d2029;--panel2:#232734;--text:#e8e6df;--muted:#9aa0b0;--accent:#ff7a2f;--accent2:#c9491d;--line:#2e3342}*{box-sizing:border-box;margin:0;padding:0}html,body{background:var(--bg);height:100%;color:var(--text);font:13px/1.45 -apple-system,SF Pro Text,Segoe UI,Roboto,Helvetica,Arial,sans-serif;overflow:hidden}#app{grid-template-columns:292px 1fr;height:100%;display:grid}#sidebar{background:var(--panel);border-right:1px solid var(--line);flex-direction:column;min-height:0;display:flex}#sidebar header{border-bottom:1px solid var(--line);padding:14px 16px 10px}#sidebar h1{letter-spacing:.2px;font-size:15px;font-weight:700}#sidebar h1 .sub{color:var(--muted);margin-top:2px;font-size:11px;font-weight:500;display:block}#anim-list{flex:1;padding:8px 8px 20px;overflow-y:auto}.cat{margin-bottom:4px}.cat-head{cursor:pointer;color:var(--muted);text-transform:uppercase;letter-spacing:.8px;-webkit-user-select:none;user-select:none;border-radius:6px;align-items:center;gap:6px;padding:7px 8px;font-size:11px;font-weight:600;display:flex}.cat-head:hover{background:var(--panel2);color:var(--text)}.cat-head .chev{font-size:9px;transition:transform .15s}.cat.closed .chev{transform:rotate(-90deg)}.cat.closed .cat-body{display:none}.cat-body{padding:2px 0 6px}.anim-btn{text-align:left;width:100%;color:var(--text);cursor:pointer;background:0 0;border:0;border-radius:6px;padding:6px 10px 6px 22px;font-size:12.5px;display:block}.anim-btn:hover{background:var(--panel2)}.anim-btn.active{background:linear-gradient(90deg, var(--accent2), var(--accent));color:#fff;font-weight:600}.anim-btn .dur{float:right;color:var(--muted);font-size:10.5px}.anim-btn.active .dur{color:#ffe2d1}#stage{min-width:0;position:relative}canvas{display:block}#topbar{pointer-events:none;background:linear-gradient(#101218d9,#10121800);align-items:center;gap:10px;padding:10px 14px;display:flex;position:absolute;top:0;left:0;right:0}#topbar>*{pointer-events:auto}.chip{background:var(--panel);border:1px solid var(--line);border-radius:8px;align-items:center;gap:8px;padding:6px 10px;display:flex}.chip label{color:var(--muted);font-size:11.5px}.chip input[type=range]{width:90px;accent-color:var(--accent)}.chip input[type=checkbox]{accent-color:var(--accent)}#now-playing{color:#fff;background:#c9491dd9;border-color:#0000;font-weight:600}#now-playing:empty{display:none}#ai-box{gap:8px;width:min(430px,60%);display:flex;position:absolute;bottom:14px;left:14px}#ai-input{border:1px solid var(--line);color:var(--text);background:#1d2029eb;border-radius:10px;outline:none;flex:1;padding:10px 12px;font-size:13px}#ai-input:focus{border-color:var(--accent)}#ai-send{background:linear-gradient(90deg, var(--accent2), var(--accent));color:#fff;cursor:pointer;border:0;border-radius:10px;padding:0 16px;font-weight:700}#ai-send:disabled{opacity:.5;cursor:default}#ai-hint{color:var(--muted);background:#1d2029cc;border-radius:6px;padding:4px 8px;font-size:11px;position:absolute;bottom:60px;left:16px}#loading{background:var(--bg);z-index:10;flex-direction:column;justify-content:center;align-items:center;gap:14px;transition:opacity .4s;display:flex;position:absolute;inset:0}#loading.done{opacity:0;pointer-events:none}#loading .bar{background:var(--line);border-radius:2px;width:240px;height:4px;overflow:hidden}#loading .bar>div{background:var(--accent);width:0%;height:100%;transition:width .2s}#loading .tiger{font-size:34px}#errbox{color:#ffd7d7;white-space:pre-wrap;background:#4c1d1d;border:1px solid #7a2f2f;border-radius:8px;max-width:46%;padding:10px 12px;font-size:12px;display:none;position:absolute;bottom:14px;right:14px}@media (width<=760px){#app{grid-template-columns:1fr}#sidebar{z-index:5;width:292px;height:100%;transition:transform .2s;position:absolute;transform:translate(-100%)}#sidebar.open{transform:none}#menu-btn{display:block}}#menu-btn{display:none}</style>
+  <script type="module" crossorigin src="./assets/index-DxtYfFIU.js"></script>
+</head>
+<body>
+  <div id="app">
+    <aside id="sidebar">
+      <header>
+        <h1>🐯 Crimson Tiger Guardia
+          <span class="sub">rigged · 41 animations · spring-bone physics</span>
+        </h1>
+      </header>
+      <div id="anim-list"></div>
+    </aside>
+    <main id="stage">
+      <div id="topbar">
+        <button id="menu-btn" class="chip">☰</button>
+        <div class="chip" id="now-playing"></div>
+        <div class="chip"><label>Speed</label><input id="speed" type="range" min="0.25" max="2" step="0.05" value="1"><span id="speed-val">1.0×</span></div>
+        <div class="chip"><label>Physics</label><input id="physics-on" type="checkbox" checked></div>
+        <div class="chip"><label>Wind</label><input id="wind" type="range" min="0" max="1" step="0.05" value="0"></div>
+        <div class="chip"><label title="Show spring bones & colliders">Debug</label><input id="debug-on" type="checkbox"></div>
+        <div class="chip"><label title="Auto rotate camera">Turntable</label><input id="turntable" type="checkbox"></div>
+      </div>
+      <div id="ai-hint">Try: “do a spinning kick”, “draw the sword”, “hip throw”…</div>
+      <div id="ai-box">
+        <input id="ai-input" placeholder="Command the tiger… (AI picks an animation)" />
+        <button id="ai-send">Go</button>
+      </div>
+      <div id="loading"><div class="tiger">🐯</div><div class="bar"><div id="load-bar"></div></div><div id="load-msg">loading model…</div></div>
+      <div id="errbox"></div>
+    </main>
+  </div>
+</body>
+</html>

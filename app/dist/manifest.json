@@ -1,0 +1,280 @@
+{
+ "animations": [
+  {
+   "id": "judo_ankle_sweep",
+   "name": "Judo \u00b7 Ankle Sweep",
+   "category": "Judo",
+   "duration": 3.967
+  },
+  {
+   "id": "judo_hip_throw",
+   "name": "Judo \u00b7 Hip Throw",
+   "category": "Judo",
+   "duration": 5.967
+  },
+  {
+   "id": "muay_thai_body_kick",
+   "name": "Muay Thai \u00b7 Body Kick",
+   "category": "Muay Thai",
+   "duration": 3.967
+  },
+  {
+   "id": "muay_thai_combination",
+   "name": "Muay Thai \u00b7 Combination",
+   "category": "Muay Thai",
+   "duration": 9.967
+  },
+  {
+   "id": "muay_thai_elbow_cut",
+   "name": "Muay Thai \u00b7 Elbow Cut",
+   "category": "Muay Thai",
+   "duration": 2.967
+  },
+  {
+   "id": "muay_thai_guard_stance",
+   "name": "Muay Thai \u00b7 Guard Stance",
+   "category": "Muay Thai",
+   "duration": 9.967
+  },
+  {
+   "id": "muay_thai_knee_clinch",
+   "name": "Muay Thai \u00b7 Knee Clinch",
+   "category": "Muay Thai",
+   "duration": 3.967
+  },
+  {
+   "id": "muay_thai_push_kick_defense",
+   "name": "Muay Thai \u00b7 Push Kick Defense",
+   "category": "Muay Thai",
+   "duration": 2.967
+  },
+  {
+   "id": "muay_thai_roundhouse",
+   "name": "Muay Thai \u00b7 Roundhouse",
+   "category": "Muay Thai",
+   "duration": 3.967
+  },
+  {
+   "id": "muay_thai_teep",
+   "name": "Muay Thai \u00b7 Teep",
+   "category": "Muay Thai",
+   "duration": 3.967
+  },
+  {
+   "id": "spear_thrust_sequence",
+   "name": "Spear \u00b7 Thrust Sequence",
+   "category": "Spear",
+   "duration": 4.967
+  },
+  {
+   "id": "staff_block",
+   "name": "Staff \u00b7 Block",
+   "category": "Staff",
+   "duration": 2.967
+  },
+  {
+   "id": "staff_combo",
+   "name": "Staff \u00b7 Combo",
+   "category": "Staff",
+   "duration": 6.967
+  },
+  {
+   "id": "staff_overhead_strike",
+   "name": "Staff \u00b7 Overhead Strike",
+   "category": "Staff",
+   "duration": 3.967
+  },
+  {
+   "id": "staff_spin_guard",
+   "name": "Staff \u00b7 Spin Guard",
+   "category": "Staff",
+   "duration": 5.967
+  },
+  {
+   "id": "staff_sweep_legs",
+   "name": "Staff \u00b7 Sweep Legs",
+   "category": "Staff",
+   "duration": 3.967
+  },
+  {
+   "id": "staff_thrust",
+   "name": "Staff \u00b7 Thrust",
+   "category": "Staff",
+   "duration": 2.967
+  },
+  {
+   "id": "sword_block_high",
+   "name": "Sword \u00b7 Block High",
+   "category": "Sword",
+   "duration": 2.967
+  },
+  {
+   "id": "sword_combo_slash_thrust",
+   "name": "Sword \u00b7 Combo Slash Thrust",
+   "category": "Sword",
+   "duration": 6.967
+  },
+  {
+   "id": "sword_draw_stance",
+   "name": "Sword \u00b7 Draw Stance",
+   "category": "Sword",
+   "duration": 4.967
+  },
+  {
+   "id": "sword_overhead_strike",
+   "name": "Sword \u00b7 Overhead Strike",
+   "category": "Sword",
+   "duration": 3.967
+  },
+  {
+   "id": "sword_parry_and_riposte",
+   "name": "Sword \u00b7 Parry And Riposte",
+   "category": "Sword",
+   "duration": 4.967
+  },
+  {
+   "id": "sword_sheathe",
+   "name": "Sword \u00b7 Sheathe",
+   "category": "Sword",
+   "duration": 3.967
+  },
+  {
+   "id": "sword_slash_diagonal_down",
+   "name": "Sword \u00b7 Slash Diagonal Down",
+   "category": "Sword",
+   "duration": 3.967
+  },
+  {
+   "id": "sword_slash_horizontal",
+   "name": "Sword \u00b7 Slash Horizontal",
+   "category": "Sword",
+   "duration": 3.967
+  },
+  {
+   "id": "sword_spinning_slash",
+   "name": "Sword \u00b7 Spinning Slash",
+   "category": "Sword",
+   "duration": 4.967
+  },
+  {
+   "id": "sword_thrust_forward",
+   "name": "Sword \u00b7 Thrust Forward",
+   "category": "Sword",
+   "duration": 3.967
+  },
+  {
+   "id": "tkd_axe_kick",
+   "name": "Taekwondo \u00b7 Axe Kick",
+   "category": "Taekwondo",
+   "duration": 3.967
+  },
+  {
+   "id": "tkd_back_kick",
+   "name": "Taekwondo \u00b7 Back Kick",
+   "category": "Taekwondo",
+   "duration": 3.967
+  },
+  {
+   "id": "tkd_front_kick_high",
+   "name": "Taekwondo \u00b7 Front Kick High",
+   "category": "Taekwondo",
+   "duration": 3.967
+  },
+  {
+   "id": "tkd_jump_front_kick",
+   "name": "Taekwondo \u00b7 Jump Front Kick",
+   "category": "Taekwondo",
+   "duration": 4.967
+  },
+  {
+   "id": "tkd_jump_spinning_kick",
+   "name": "Taekwondo \u00b7 Jump Spinning Kick",
+   "category": "Taekwondo",
+   "duration": 5.967
+  },
+  {
+   "id": "tkd_roundhouse_high",
+   "name": "Taekwondo \u00b7 Roundhouse High",
+   "category": "Taekwondo",
+   "duration": 3.967
+  },
+  {
+   "id": "tkd_side_kick",
+   "name": "Taekwondo \u00b7 Side Kick",
+   "category": "Taekwondo",
+   "duration": 3.967
+  },
+  {
+   "id": "tkd_spinning_heel_kick",
+   "name": "Taekwondo \u00b7 Spinning Heel Kick",
+   "category": "Taekwondo",
+   "duration": 4.967
+  },
+  {
+   "id": "wrestling_body_slam",
+   "name": "Wrestling \u00b7 Body Slam",
+   "category": "Wrestling",
+   "duration": 5.967
+  },
+  {
+   "id": "wrestling_double_leg_takedown",
+   "name": "Wrestling \u00b7 Double Leg Takedown",
+   "category": "Wrestling",
+   "duration": 4.967
+  },
+  {
+   "id": "wrestling_guard_position",
+   "name": "Wrestling \u00b7 Guard Position",
+   "category": "Wrestling",
+   "duration": 9.967
+  },
+  {
+   "id": "wrestling_single_leg_takedown",
+   "name": "Wrestling \u00b7 Single Leg Takedown",
+   "category": "Wrestling",
+   "duration": 4.967
+  },
+  {
+   "id": "wrestling_stand_up_defense",
+   "name": "Wrestling \u00b7 Stand Up Defense",
+   "category": "Wrestling",
+   "duration": 3.967
+  },
+  {
+   "id": "_tpose",
+   "name": "Reference \u00b7 T-Pose",
+   "category": "Reference",
+   "duration": 1.0
+  }
+ ],
+ "bones": [
+  "pelvis",
+  "spine_01",
+  "spine_02",
+  "spine_03",
+  "neck_01",
+  "head",
+  "clavicle_l",
+  "upperarm_l",
+  "lowerarm_l",
+  "hand_l",
+  "index_01_l",
+  "index_02_l",
+  "index_03_l",
+  "clavicle_r",
+  "upperarm_r",
+  "lowerarm_r",
+  "hand_r",
+  "index_01_r",
+  "index_02_r",
+  "index_03_r",
+  "thigh_l",
+  "calf_l",
+  "foot_l",
+  "ball_l",
+  "thigh_r",
+  "calf_r",
+  "foot_r",
+  "ball_r"
+ ]
+}
